@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.courses.feature.login.presentation.fragment.LoginFragment"
+        android:label="Вход">
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.courses.feature.main.presentation.main.MainFragment"
+        android:label="Главная" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.courses.feature.main.presentation.favorites.FavoritesFragment"
+        android:label="Избранное" />
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.courses.feature.main.presentation.account.AccountFragment"
+        android:label="Аккаунт" />
+
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="com.courses.feature.main.presentation.detail.CourseDetailFragment"
+        android:label="Курс" />
+
+</navigation>

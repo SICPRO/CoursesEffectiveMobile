@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_home">Главная</string>
+    <string name="bt_favorite">Избранное</string>
+    <string name="bt_account">Аккаунт</string>
+    <string name="description_search">Поиск</string>
+    <string name="search_courses">Search courses...</string>
+    <string name="description_filter">Фильтр</string>
+    <string name="text_sort">По дате добавления</string>
+    <string name="description_sort">Сортировка</string>
+    <string name="more">Подробнее</string>
+    <string name="tvEmpty">Нет избранных курсов</string>
+    <string name="bt_back">Назад</string>
+    <string name="about">О курсе</string>
+    <string name="bt_go_lesson">Начать курс</string>
+    <string name="bt_go_platform">Перейти на платформу</string>
+    <string name="profile">Профиль</string>
+</resources>

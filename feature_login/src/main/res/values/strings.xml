@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_title">Вход</string>
+    <string name="login_email_label">Email</string>
+    <string name="login_email_hint">example@gmail.com</string>
+    <string name="login_password_label">Пароль</string>
+    <string name="login_password_hint">Введите пароль</string>
+    <string name="login_forgot_password">Забыл пароль</string>
+    <string name="login_text">Нет аккаунта?</string>
+    <string name="login_registration">Регистрация</string>
+    <string name="login_forgot_pass">Забыл пароль</string>
+    <string name="description_ok">Одноклассники</string>
+    <string name="description_vk">Вконтакте</string>
+</resources>
