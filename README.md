@@ -1,21 +1,21 @@
 # CoursesEffectiveMobile
 
 Стек:
-Язык - Kotlin
-Архитектура - Clean Architecture + MVVM
-Структура - Multi-module (feature_login, feature_main)
-DI - Koin
-Сеть - Retrofit 2 + OkHttp
-БД - Room (KSP)
-Навигация - Navigation Component
-Async - Coroutines + LiveData
-UI - XML / ViewBinding
+- Язык - Kotlin
+- Архитектура - Clean Architecture + MVVM
+- Структура - Multi-module (feature_login, feature_main)
+- DI - Koin
+- Сеть - Retrofit 2 + OkHttp
+- БД - Room (KSP)
+- Навигация - Navigation Component
+- Async - Coroutines + LiveData
+- UI - XML / ViewBinding
 
-Архитектура
+Архитектура.
 Проект разбит на feature-модули, каждый из которых следует трёхслойной Clean Architecture:
-app/ - Точка входа
-feature_login/ - Экран авторизации
-feature_main/ - Основной функционал приложения
+- app/ - Точка входа
+- feature_login/ - Экран авторизации
+- feature_main/ - Основной функционал приложения
 
 Экран входа
 - Валидация email по маске (regex) с блокировкой кириллицы
